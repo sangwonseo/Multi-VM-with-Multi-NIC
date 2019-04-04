@@ -15,11 +15,12 @@ vms:
   master:
     vmhost: master
     vmip1: 49.254.105.180
-    vmip2: 10.10.1.10
+    vmip2: 10.10.1.11
   node1:
     vmhost: node1
-    vmip: 49.254.105.181
+    vmip1: 49.254.105.181
+    vmip2: 10.10.1.12
   node2:
     vmhost: node2
     vmip1: 49.254.105.182 
-    vmip2: 10.10.1.10
+    vmip2: 10.10.1.13
