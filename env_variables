@@ -5,7 +5,8 @@ vsphere_datacenter: CDS_NetApp_KR
 esxi_hostname: 49.254.105.28
 vsphere_folder: Discovered virtual machine
 vsphere_datastore: CDS_datastore
-guest_network: data_port
+guest_network1: data_port
+guest_network2: private_network
 guest_id: centos7_64Guest
 guest_memory: 2048  
 guest_vcpu: 2
@@ -13,10 +14,12 @@ guest_template: CentOS7.6_for_K8S
 vms:
   master:
     vmhost: master
-    vmip: 49.254.105.180
+    vmip1: 49.254.105.180
+    vmip2: 10.10.1.10
   node1:
     vmhost: node1
     vmip: 49.254.105.181
   node2:
     vmhost: node2
-    vmip: 49.254.105.182      
+    vmip1: 49.254.105.182 
+    vmip2: 10.10.1.10
