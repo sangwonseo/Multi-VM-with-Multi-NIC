@@ -6,7 +6,7 @@ esxi_hostname: 49.254.105.40
 vsphere_folder: Discovered virtual machine
 vsphere_datastore: VMWare_Datastore
 guest_network1: VM Network
-guest_network2: 
+guest_network2: VM Network
 guest_id: centos7_64Guest
 guest_memory: 2048  
 guest_vcpu: 2
